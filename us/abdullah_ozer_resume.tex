@@ -1,0 +1,333 @@
+%-------------------------
+% Resume in Latex
+% Author : Abdullah Ozer
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{bold-extra}
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{hyphenat}
+\usepackage{fontawesome}
+\input{glyphtounicode}
+
+
+%---------- FONT OPTIONS ----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\footskip}{4.5pt}
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+\newcommand{\resumeSubSubheading}[2]{
+    \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+\newcommand{\resumeEducationHeading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+
+\newcommand{\resumeProjectHeading}[2]{
+    \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+\newcommand{\resumeOrganizationHeading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textit{\small #2} \\
+      \textit{\small#3}
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%---------- HEADING ----------
+
+\begin{center}
+    \textbf{\Huge \scshape Abdullah Ozer} \\ \vspace{5pt}
+    {\LARGE \scshape Software Engineer} \\ \vspace{3pt}
+    \small
+    \faMobile \hspace{.5pt} \href{tel:33769929851}{+337 69 92 98 51}
+    $|$
+    \faAt \hspace{.5pt} \href{
+      mailto:abdullahozer11@hotmail.com
+    }{abdullahozer11@hotmail.com}
+    $|$
+    \faLinkedinSquare \hspace{.5pt} \href{
+      https://www.linkedin.com/in/abdullah-ozer-a23733107/?locale=en_US
+    }{LinkedIn}
+    $|$
+    \faGithub \hspace{.5pt} \href{https://github.com/abdullahozer11}{GitHub}
+    $|$
+    \faMapMarker \hspace{.5pt} \href{
+      https://www.google.com/maps/place/Paris/@48.8588255,2.2646353,12z/data=!3m1!4b1!4m6!3m5!1s0x47e66e1f06e2b70f:0x40b82c3688c9460!8m2!3d48.856614!4d2.3522219!16zL20vMDVxdGo?entry=ttu
+    }{Paris, France}
+\end{center}
+
+
+%----------- WORK EXPERIENCE -----------
+
+\section{Work Experience}
+  \vspace{3pt}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {6WIND}{Paris, France}
+      {Software Engineer (3 years)}
+      {Aug 2021 \textbf{--} Ongoing, Full-time}
+
+        \resumeItemListStart
+            \resumeItem{
+              Expanded companies automated testing capabilities by adding new
+              test suites, topologies, tools and helpers to their testing framework.
+            }
+%            \resumeItem{
+%              Enhanced companies experience with performance related features by
+%              creating new ways of displaying KPIs on crucial performance tests.
+%            }
+            \resumeItem{
+              Demonstrated reactivity and agility during critical times when clients
+              needed quick use case tests that mimic their infrastructure, providing
+              reassurance with reports and metrics tailored to their specific needs.
+            }
+        \resumeItemListEnd
+
+    \resumeSubheading
+      {STMicroelectronics}{Grenoble, France}
+      {Software Developer (2 years)}
+      {Aug 2019 \textbf{--} Aug 2021, Full-time}
+
+        \resumeItemListStart
+            \resumeItem{
+              Developed tools and drivers in order to test low distance high frequency
+              RF emitter/receivers with a variety of testing hardware such as signal
+              attenuators.
+            }
+%            \resumeItem{
+%              Developed embedded software on STM32 in order to manage voltage input
+%              for test equipment.
+%            }
+        \resumeItemListEnd
+
+    \resumeSubheading
+      {Airties Wireless Networks}{Istanbul, Türkiye}
+      {Test Engineer (2 years)}
+      {Feb 2016 \textbf{--} Feb 2018, Full-time }
+
+        \resumeItemListStart
+            \resumeItem{
+              Developed crucial automation equipments such automatic charging station
+              and smart elevator for test automation projects using Arduino, motors
+              and sensors.
+            }
+%            \resumeItem{
+%              Created automated video quality and error proneness tests for set-top
+%              boxes (TV boxes).
+%            }
+        \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%----------- EDUCATION -----------
+
+\section{Education}
+  \vspace{3pt}
+  \resumeSubHeadingListStart
+
+    \resumeEducationHeading
+      {ESIGELEC}
+      {Rouen, France}
+      {Master of Science \textbf{--} Major: Embedding Electronic Systems}
+      {Feb 2018 \textbf{--} Aug 2019}
+
+    \resumeEducationHeading
+      {Bogazici University}
+      {Istanbul, Türkiye}
+      {Bachelors \textbf{--} Major: Electric and Electronics Engineering}
+      {Feb 2011 \textbf{--} Aug 2016}
+
+  \resumeSubHeadingListEnd
+
+%----------- SKILLS -----------
+
+
+\section{Skills}
+  \vspace{2pt}
+  \resumeSubHeadingListStart
+    \small{\item{
+        \textbf{Programming Languages:}{
+          Python 3.6+, JavaScript (ES6), TypeScript, Bash, HTML 5, CSS 3, PostgreSQL
+        } \\ \vspace{3pt}
+        \textbf{Python Development:}{
+          Django, Django REST Framework, Unittest
+        } \\ \vspace{3pt}
+        \textbf{JavaScript Development:}{
+          Node.js, React, Next, Jest, Tailwind
+        } \\ \vspace{3pt}
+        \textbf{Cloud Computing \& DevOps:}{
+          Git, Jenkins, GitHub, Docker, AWS
+        } \\ \vspace{3pt}
+        \textbf{Languages:}{
+          English (full proficiency), French (full proficiency), Turkish (native)
+        } \\ \vspace{3pt}
+    }}
+  \resumeSubHeadingListEnd
+
+
+%----------- PROJECTS -----------
+
+\section{Projects}
+    \vspace{3pt}
+    \resumeSubHeadingListStart
+
+      \resumeProjectHeading
+        {
+          \textbf{
+            SplitFree (Typescript, Javascript, Django, Python, PostgreSQL, Deno)
+          } $|$ \emph{
+            \href{
+              https://github.com/abdullahozer11/split-free-frontend
+            }{GitHub}
+          }
+        }{}
+          \resumeItemListStart
+            \resumeItem{
+              Built an intelligent and free expense splitter app for mobile using React and Supabase.
+            }
+            \resumeItem{
+              Used React Query in order to efficiently collect and cache data.
+            }
+            \resumeItem{
+              Used NativeWind to efficiently create beautiful and responsive UI.
+            }
+            \resumeItem{
+              Used Gemini API to auto classify user expenses.
+            }
+            \resumeItem{
+              Created django backend to deal with algorith calculations to present payment
+              solutions to end users.
+            }
+            \resumeItem{
+              Used Poetry for package management. Dockerized for easy integration.
+              Created github actions for CI/CD.
+            }
+          \resumeItemListEnd
+
+      \resumeProjectHeading
+        {
+          \textbf{
+            Portfolio Website (Python, Django, Unittest, Docker, React, Javascript, GSAP)
+          } $|$ \emph{
+            \href{
+              https://github.com/abdullahozer11/MasterWebsite
+            }{GitHub}
+          }
+        }{}
+          \resumeItemListStart
+            \resumeItem{
+              Created personal portfolio website using animations with GSAP.
+            }
+            \resumeItem{
+              Created word guessing game using hexagonal cylinders in order to form maximum
+              amount of words by doing dictionary verifications via Django REST framework and
+              open source english dictionary.
+            }
+            \resumeItem{
+              Displayed demo projects such as personalized themed timers for couples for
+              their reunification using Midjourney, HTML and Photoshop.
+            }
+          \resumeItemListEnd
+
+    \resumeSubHeadingListEnd
+
+\end{document}
